@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\dhaya\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\dhaya\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.1 (Oracle Corporation Java 15)
+[debug]       Load.loadUnit: plugins took 139.5749ms
+[debug]       Load.loadUnit: defsScala took 0.4213ms
+[debug] [Loading] Scanning directory C:\Users\dhaya\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dhaya\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.364 ms
+[debug]           Load.resolveProject(global-plugins) took 57.4841ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\dhaya\.sbt\1.0\plugins, plugins: List(<none>))) took 105.1922ms
+[debug] [Loading] Done in C:\Users\dhaya\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 134.469ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2834ms
+[debug]     Load.loadUnit(file:/C:/Users/dhaya/.sbt/1.0/plugins/, ...) took 288.5342ms
+[debug]   Load.apply: load took 536.6714ms
+[debug]   Load.apply: resolveProjects took 8.9391ms
+[debug]   Load.apply: finalTransforms took 115.1684ms
+[debug]   Load.apply: config.delegates took 15.7359ms
+[debug]   Load.apply: Def.make(settings)... took 774.8763ms
+[debug]   Load.apply: structureIndex took 239.1048ms
+[debug]   Load.apply: mkStreams took 2.2149ms
+[info] loading global plugins from C:\Users\dhaya\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4545.3333ms
+[debug]           Load.loadUnit: plugins took 97.6326ms
+[debug]           Load.loadUnit: defsScala took 0.0867ms
+[debug] [Loading] Scanning directory C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking\project
+[debug]             Load.loadUnit: mkEval took 14.2816ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.539 ms
+[info] loading settings for project revatureproject0_banking-build from idea.sbt ...
+[debug]               Load.resolveProject(revatureproject0_banking-build) took 4.1302ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id revatureproject0_banking-build, base: C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking\project, plugins: List(<none>))) took 7.6235ms
+[debug] [Loading] Done in C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking\project, returning: (revatureproject0_banking-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4888.1437ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.5803ms
+[debug]         Load.loadUnit(file:/C:/Users/dhaya/Documents/GitHub/RevatureProject0_banking/project/, ...) took 4996.1732ms
+[debug]       Load.apply: load took 4998.5091ms
+[debug]       Load.apply: resolveProjects took 0.2358ms
+[debug]       Load.apply: finalTransforms took 13.2236ms
+[debug]       Load.apply: config.delegates took 0.6362ms
+[debug]       Load.apply: Def.make(settings)... took 123.7516ms
+[debug]       Load.apply: structureIndex took 45.2273ms
+[debug]       Load.apply: mkStreams took 0.0028ms
+[info] loading project definition from C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 9312.6084ms
+[debug]     Load.loadUnit: defsScala took 0.0048ms
+[debug] [Loading] Scanning directory C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking
+[debug]       Load.loadUnit: mkEval took 0.3777ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.7363 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 71.0458ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking, plugins: List(<none>))) took 78.0404ms
+[debug] [Loading] Done in C:\Users\dhaya\Documents\GitHub\RevatureProject0_banking, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2080.1912ms
+[debug]     Load.loadUnit: cleanEvalClasses took 36.0391ms
+[debug]   Load.loadUnit(file:/C:/Users/dhaya/Documents/GitHub/RevatureProject0_banking/, ...) took 11430.4967ms
+[debug] Load.apply: load took 11434.8463ms
+[debug] Load.apply: resolveProjects took 0.2006ms
+[debug] Load.apply: finalTransforms took 41.2587ms
+[debug] Load.apply: config.delegates took 0.447ms
+[debug] Load.apply: Def.make(settings)... took 108.3568ms
+[debug] Load.apply: structureIndex took 34.2788ms
+[debug] Load.apply: mkStreams took 0.0038ms
+[info] set current project to RevatureProject0_banking (in build file:/C:/Users/dhaya/Documents/GitHub/RevatureProject0_banking/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54400 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54400, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to RevatureProject0_banking (in build file:/C:/Users/dhaya/Documents/GitHub/RevatureProject0_banking/)
+[debug] > Exec(idea-shell, None, None)
