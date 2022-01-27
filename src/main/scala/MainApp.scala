@@ -47,7 +47,6 @@ object MainApp {
                 case _ => println("please enter valid input\n");
             }
         }
-        println("submenu done")
     }
 
     //--------------------------------------------
@@ -217,6 +216,8 @@ object MainApp {
             st.executeUpdate(sql1);
             st.executeUpdate(sql2);
             println("\nAccount deleted. Goodbye")
+
+            //once account is deleted, close connection and exit program.
             connection.close();
             System.exit(0);
 
@@ -345,8 +346,8 @@ object MainApp {
 
         //go to logged in user's menu
         submenu(hold_id);
-        println("out of submenu")
 
+        //once done in submenu, close connection and exit
         connection.close()
         System.exit(0);
     }
