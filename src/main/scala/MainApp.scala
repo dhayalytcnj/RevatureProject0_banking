@@ -245,13 +245,13 @@ object MainApp {
             val rs1 = st.executeQuery(sql1);
             rs1.next();
             var quantity:Int = rs1.getString("quantity").toInt;
-
-            val rs2 = st.executeQuery(sql2);
-            rs2.next()
-            hold_id = rs2.getString("acctID").toInt; // will use this for submenu if login succeeds
-            hold_fname = rs2.getString("fname");
-            hold_lname = rs2.getString("lname");
-
+            if (quantity == 1){
+                val rs2 = st.executeQuery(sql2);
+                rs2.next()
+                hold_id = rs2.getString("acctID").toInt; // will use this for submenu if login succeeds
+                hold_fname = rs2.getString("fname");
+                hold_lname = rs2.getString("lname");
+            }
             return quantity;
         }
         catch
