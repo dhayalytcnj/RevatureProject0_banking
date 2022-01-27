@@ -3,7 +3,7 @@
 
 CLI-based application utilizing Scala and MySQL.
 1. Ask for user to login or sign up.
-2. Login, and perform actions:
+2. Login, see existing balance, and perform following actions:
    1. Deposit
    2. Withdraw
    3. Transfer
