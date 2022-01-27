@@ -7,7 +7,7 @@ CREATE TABLE if not exists Accounts (
 ) ;
 
 CREATE TABLE if not exists Customers (
-	acctID int NOT NULL,
+	acctID int UNIQUE NOT NULL,
 	fname varchar(20) NOT NULL,
 	lname varchar(20) NOT NULL,
 	checking decimal(15,2) NOT NULL DEFAULT 0.00,
